@@ -1,8 +1,26 @@
 aid: bexorg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bexorg.png
 name: Bexorg
-description: 'Bexorg is a company surfaced as a portfolio company of amplify-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: digital-biology. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Bexorg, Inc. is a New Haven, Connecticut and San Francisco based digital-biology
+  company building AI-powered drug-discovery infrastructure for central nervous system
+  (CNS) therapies. Its BrainEx platform restores and sustains whole donated human brains
+  to test drug candidates directly in human tissue, generating clinically predictive
+  data on blood-brain-barrier delivery, target engagement, and brain exposure across
+  small molecules, biologics, viral vectors, and lipid nanoparticles before human trials.
+  Backed by Amplify Partners, Bexorg aims to reduce the high failure rate of CNS clinical
+  trials. The company markets a scientific platform and does not currently publish a
+  public API, SDK, or developer documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/bexorg/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Digital Biology
+- Drug Discovery
+- Neuroscience
+- Biotechnology
+- Central Nervous System
+- Life Sciences
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,22 @@ maintainers:
 common:
 - type: Website
   url: https://bexorg.com
+- type: Blog
+  url: https://bexorg.com/news
+- type: Support
+  url: https://bexorg.com/contact
+- type: About
+  url: https://bexorg.com/about
+- type: Careers
+  url: https://bexorg.com/careers
+- type: Technology
+  url: https://bexorg.com/technology
+- type: LinkedIn
+  url: https://www.linkedin.com/company/bexorg-inc
+- type: DomainSecurity
+  url: security/bexorg-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
